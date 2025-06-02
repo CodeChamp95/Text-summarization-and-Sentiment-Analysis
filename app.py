@@ -5,12 +5,12 @@ from tensorflow import keras
 import numpy as np
 
 # Load BART for summarization
-bart_model = AutoModelForSeq2SeqLM.from_pretrained("bart_summary_financial_model")
-bart_tokenizer = AutoTokenizer.from_pretrained("bart_financial_tokenizer")
+bart_model = AutoModelForSeq2SeqLM.from_pretrained("CodeChamp95/bart_summary_financial_model")
+bart_tokenizer = AutoTokenizer.from_pretrained("CodeChamp95/bart_financial_tokenizer")
 
 # Load BERT for sentiment analysis
-bert_model = TFAutoModelForSequenceClassification.from_pretrained("bert_sentiment_financial_model")
-bert_tokenizer = AutoTokenizer.from_pretrained("bert_financial_tokenizer")
+bert_model = TFAutoModelForSequenceClassification.from_pretrained("CodeChamp95/bert_sentiment_financial_model")
+bert_tokenizer = AutoTokenizer.from_pretrained("CodeChamp95/bert_financial_tokenizer")
 
 # Sentiment mapping
 sentiment_map = {0: "Negative", 1: "Neutral", 2: "Positive"}
