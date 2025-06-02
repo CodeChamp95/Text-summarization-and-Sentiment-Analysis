@@ -1,0 +1,6 @@
+# Ignore model/tokenizer folders and files
+bart_financial_tokenizer/
+bart_summary_financial_model/
+bert_financial_tokenizer/
+bert_sentiment_financial_model.keras
+bert_sentiment_financial_model/
