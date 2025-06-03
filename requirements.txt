@@ -3,3 +3,4 @@ transformers
 tensorflow>=2.15.0
 torch
 numpy
+tf-keras
