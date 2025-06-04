@@ -9,7 +9,7 @@ sentiment_map = {0: "Negative", 1: "Neutral", 2: "Positive"}
 
 # Streamlit UI
 st.set_page_config(page_title="Text Analyzer", layout="centered")
-st.title("\ud83d\udcc8 Text Summarizer & Sentiment Analyzer")
+st.title("📈 Text Summarizer & Sentiment Analyzer")
 st.markdown("Type or paste any block of text below. First generate a summary, then analyze its sentiment.")
 
 input_text = st.text_area("Enter content:", height=300)
