@@ -1,6 +1,6 @@
 # Model and tokenizer for sentiment analysis:
 
-BERT model: https://huggingface.co/CodeChamp95/bert_sentiment_financial_model
+BERT model: https://huggingface.co/CodeChamp95/bert_sentiment_financial_model 
 BERT tokenizer: https://huggingface.co/CodeChamp95/bert_financial_tokenizer
 
 # Model and tokenizer for summarization:
